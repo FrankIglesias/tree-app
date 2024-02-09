@@ -1,0 +1,27 @@
+{
+  "name": "tree-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "ag-charts-vue3": "^9.0.2",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@vue/test-utils": "^2.4.4",
+    "jest": "^29.7.0",
+    "jsdom": "^24.0.0",
+    "sass": "^1.70.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vitest": "^1.2.2",
+    "vue-tsc": "^1.8.25"
+  }
+}
